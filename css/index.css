@@ -1,37 +1,33 @@
 /*Imagen principal*/
 .inicio {
-  --opacidad-negro: 0.5;
+  --opacidad-negro: 0.4;
   background-image: linear-gradient(
       rgba(0, 0, 0, var(--opacidad-negro)),
       rgba(0, 0, 0, var(--opacidad-negro))
     ),
-    url("../img/DreamShaper_v7_ropa_de_hombre_casual_2-_1_-_1_.webp");
+    url("../img/DreamShaper_v7_Ropa_para_hombre_3.webp");
   background-position: center;
   background-size: cover;
-  height: 50rem;
+  height: 65rem;
 }
 /*Tamaño del color del Logo*/
 .navbar-brand {
   font-size: 1.3rem;
-  color: lavender;
+  color: #FFFFFF;
 }
 .nav-link {
   margin-right: 10px;
   margin-left: 10px;
-  color: lavender;
+  color: #FFFFFF;
 }
 /*Color del fondo del Navbar*/
 .navbar {
-  background-color: #ccb28d;
+  background-color: #385061;
 }
 /*Caracteristicas de los Nav-item*/
 .nav-item {
   font-size: 20px;
   font-family: "Bebas Neue", sans-serif;
-}
-/*Color de fondo de las tarjetas*/
-.card {
-  background-color: #ccb28d;
 }
 /*Texto de las tarjetas*/
 .card-text {
@@ -40,6 +36,38 @@
   text-align: center;
 }
 .politicas {
-  background-color: #edcfa4;
+  background-color: #385061;
   text-align: center;
+}
+.basicos{
+  .card{
+    width: 18rem;
+    background-color: #385061;
+    .card-title{
+      font-size: 1.3rem;
+      color: #FFFFFF;
+      font-family: 'Bebas Neue',sans-serif;
+      text-align: center;
+    }
+    .card-text{
+      font-size: 0.9rem;
+      color: #90CDFA;
+    }
+  }
+}
+.urbano{
+  .card{
+    width: 18rem;
+    background-color: black;
+    .card-title{
+      font-size: 1.3rem;
+      color: #FFFFFF;
+      font-family: 'Bebas Neue',sans-serif;
+      text-align: center;
+    }
+    .card-text{
+      font-size: 0.9rem;
+      color: #5EAAE0;
+    }
+  }
 }
