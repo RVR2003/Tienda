@@ -35,10 +35,6 @@
   font-weight: 1000;
   text-align: center;
 }
-.politicas {
-  background-color: #385061;
-  text-align: center;
-}
 .basicos{
   .card{
     width: 18rem;
@@ -58,7 +54,7 @@
 .urbano{
   .card{
     width: 18rem;
-    background-color: black;
+    background-color: #333643;
     .card-title{
       font-size: 1.3rem;
       color: #FFFFFF;
@@ -67,7 +63,46 @@
     }
     .card-text{
       font-size: 0.9rem;
-      color: #5EAAE0;
+      color: #CCC1A3;
     }
+  }
+}
+.camisas{
+  .card{
+    width: 18rem;
+    background-color: #CCC4B8;
+    .card-title{
+      font-size: 1.3rem;
+      color: #FFFFFF;
+      font-family: 'Bebas Neue',sans-serif;
+      text-align: center;
+    }
+    .card-text{
+      font-size: 0.9rem;
+      color: #1C477A;
+    }
+  }
+}
+.polos{
+  .card{
+    width: 18rem;
+    background-color: #7C292E;
+    .card-title{
+      font-size: 1.3rem;
+      color: #FFFFFF;
+      font-family: 'Bebas Neue',sans-serif;
+      text-align: center;
+    }
+    .card-text{
+      font-size: 0.9rem;
+      color: #E0DB96;
+    }
+  }
+}
+.footer{
+  background-color: #385061;
+  text-align: center;
+  #politicas{
+    color: white;
   }
 }
