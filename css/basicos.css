@@ -1,0 +1,31 @@
+/*Imagen principal*/
+.inicio {
+    --opacidad-negro: 0.4;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, var(--opacidad-negro)),
+        rgba(0, 0, 0, var(--opacidad-negro))
+      ),
+      url("../img/DreamShaper_v7_Ropa_para_hombre_3.webp");
+    background-position: center;
+    background-size: cover;
+    height: 65rem;
+  }
+  /*Tamaño del color del Logo*/
+  .navbar-brand {
+    font-size: 1.3rem;
+    color: #FFFFFF;
+  }
+  .nav-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #FFFFFF;
+  }
+  /*Color del fondo del Navbar*/
+  .navbar {
+    background-color: #385061;
+  }
+  /*Caracteristicas de los Nav-item*/
+  .nav-item {
+    font-size: 20px;
+    font-family: "Bebas Neue", sans-serif;
+  }
