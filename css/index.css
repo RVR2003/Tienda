@@ -24,7 +24,7 @@
 .navbar {
   background-color: #385061;
 }
-/*Caracteristicas de los Nav-item*/
+/*Características de los Nav-item*/
 .nav-item {
   font-size: 20px;
   font-family: "Bebas Neue", sans-serif;
@@ -38,7 +38,7 @@
 .basicos{
   .card{
     width: 18rem;
-    background-color: #385061;
+    background-color: #567687;
     .card-title{
       font-size: 1.3rem;
       color: #FFFFFF;
@@ -54,7 +54,7 @@
 .urbano{
   .card{
     width: 18rem;
-    background-color: #333643;
+    background-color: #567687;
     .card-title{
       font-size: 1.3rem;
       color: #FFFFFF;
@@ -63,14 +63,14 @@
     }
     .card-text{
       font-size: 0.9rem;
-      color: #CCC1A3;
+      color: #90CDFA;
     }
   }
 }
 .camisas{
   .card{
     width: 18rem;
-    background-color: #CCC4B8;
+    background-color: #567687;
     .card-title{
       font-size: 1.3rem;
       color: #FFFFFF;
@@ -79,14 +79,14 @@
     }
     .card-text{
       font-size: 0.9rem;
-      color: #1C477A;
+      color: #90CDFA;
     }
   }
 }
 .polos{
   .card{
     width: 18rem;
-    background-color: #7C292E;
+    background-color: #567687;
     .card-title{
       font-size: 1.3rem;
       color: #FFFFFF;
@@ -95,14 +95,19 @@
     }
     .card-text{
       font-size: 0.9rem;
-      color: #E0DB96;
+      color: #90CDFA;
     }
   }
 }
 .footer{
   background-color: #385061;
   text-align: center;
+  color: white;
+  font-size: 1.3rem;
+  font-family: 'Bebas Neue',sans-serif;
   #politicas{
     color: white;
+    font-size: 1.3rem;
+    font-family: 'Bebas Neue',sans-serif;
   }
 }

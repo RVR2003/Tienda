@@ -5,7 +5,7 @@
         rgba(0, 0, 0, var(--opacidad-negro)),
         rgba(0, 0, 0, var(--opacidad-negro))
       ),
-      url("../img/DreamShaper_v7_Ropa_para_hombre_3.webp");
+      url("../img/Fondo_playeras_basicos.webp");
     background-position: center;
     background-size: cover;
     height: 65rem;
@@ -24,8 +24,42 @@
   .navbar {
     background-color: #385061;
   }
-  /*Caracteristicas de los Nav-item*/
+  /*Características de los Nav-item*/
   .nav-item {
     font-size: 20px;
     font-family: "Bebas Neue", sans-serif;
+  }
+  /*Texto de las tarjetas*/
+  .card-text {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 1000;
+    text-align: center;
+  }
+  .basicos{
+    .card{
+      width: 18rem;
+      background-color: #567687;
+      .card-title{
+        font-size: 1.3rem;
+        color: #FFFFFF;
+        font-family: 'Bebas Neue',sans-serif;
+        text-align: center;
+      }
+      .card-text{
+        font-size: 0.9rem;
+        color: #90CDFA;
+      }
+    }
+  }
+  .footer{
+    background-color: #385061;
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Bebas Neue',sans-serif;
+    #politicas{
+      color: white;
+      font-size: 1.3rem;
+      font-family: 'Bebas Neue',sans-serif;
+    }
   }
