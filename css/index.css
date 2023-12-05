@@ -105,9 +105,12 @@
   color: white;
   font-size: 1.3rem;
   font-family: 'Bebas Neue',sans-serif;
+  letter-spacing: 1.6rem;
   #politicas{
     color: white;
     font-size: 1.3rem;
     font-family: 'Bebas Neue',sans-serif;
+    letter-spacing: normal;
+    word-spacing: 0.5rem;
   }
 }

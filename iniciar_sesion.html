@@ -49,7 +49,7 @@
         <div class="container">
           <!--Logo del Navbar-->
           <a class="navbar-brand" href="index.html">
-            <img src="./img/logoprueba.png" alt="">
+            <img src="./img/logoprueba.webp" alt="">
           </a>
           <button
             class="navbar-toggler"
@@ -105,18 +105,22 @@
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <form>
                           <!--Iniciar sesion-->
+                            <!--Email-->
                             <div class="mb-3">
                               <label for="exampleInputEmail1" class="form-label">Email</label>
                               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                             </div>
+                            <!--Password-->
                             <div class="mb-3">
                               <label for="exampleInputPassword1" class="form-label">Password</label>
                               <input type="password" class="form-control" id="exampleInputPassword1">
                             </div>
+                            <!--Casilla de recordarme-->
                             <div class="mb-3 form-check">
                               <input type="checkbox" class="form-check-input" id="exampleCheck1">
                               <label class="form-check-label" for="exampleCheck1">Recordarme</label>
                             </div>
+                            <!--Recuperar contraseña-->
                             <div class="mb-3 recuperar">
                                 <!--Trigger modal-->
                                 <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Recuperar contraseña</a>
@@ -135,7 +139,7 @@
                                         <div class="container">
                                           <div class="dropdown">
                                             <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                              Dropdown button
+                                              Escoge una opcion
                                             </button>
                                             <ul class="dropdown-menu">
                                               <li><a class="dropdown-item" href="#">Correo Electrónico</a></li>
@@ -157,9 +161,11 @@
                                     </div>
                                 </div>
                             </div>
+                            <!--Boton de inicio de sesion-->
                             <button type="submit" class="btn btn-secondary">Iniciar Sesión</button>
                           </form>
                     </div>
+                    <!--Crear cuenta-->
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <p class="texto">
                             ¿NO TIENES CUENTA? <br>
@@ -176,12 +182,12 @@
                               <div class="modal-dialog">
                               <div class="modal-content">
                                   <div class="modal-header">
-                                  <h1 class="modal-title fs-5" id="exampleModalLabel">Recuperación de Contraseña</h1>
+                                  <h1 class="modal-title fs-5" id="exampleModalLabel">Crear cuenta</h1>
                                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                   </div>
                                   <div class="modal-body">
                                   <p>
-                                    Ingresa tu correo electrónico o número telefonico para recibir un código de recuperación.
+                                    Por favor ingresa tus datos
                                   </p>
                                   <form action="">
                                       <!--Nombre-->
@@ -222,6 +228,7 @@
             </div>
         </section>
     </main>
+    <!--Scripts-->
     <script src="./aos/aos.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
