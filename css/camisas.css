@@ -5,7 +5,7 @@
       rgba(0, 0, 0, var(--opacidad-negro)),
       rgba(0, 0, 0, var(--opacidad-negro))
     ),
-    url("../img/Fondo_playeras_basicos.webp");
+    url("../img/Fondo_camisas.webp");
   background-position: center;
   background-size: cover;
   height: 65rem;
@@ -35,7 +35,7 @@
   font-weight: 1000;
   text-align: center;
 }
-.basicos {
+.camisas {
   .card {
     width: 18rem;
     background-color: #567687;
@@ -51,7 +51,6 @@
     }
   }
 }
-/*Footer*/
 .footer {
   background-color: #385061;
   text-align: center;
